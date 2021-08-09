@@ -34,7 +34,7 @@ export default class Contact extends React.Component{
             isLoading:true,
             isSuccess:false
         })
-        emailjs.sendForm(process.env.REACT_APP_EMAIL_SERVICE_ID, process.env.REACT_APP_EMAIL_TEMPLATE_ID, e.target, process.env.REACT_APP_EMAIL_USER_ID)
+        emailjs.sendForm("service_2lvoxt5","template_bxnajfy", e.target, "user_TJ8u5MoQo6Ot3FkqmdoU4")
           .then((result) => {
               this.setState({
                   isLoading:false,

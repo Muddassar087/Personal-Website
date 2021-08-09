@@ -25,7 +25,7 @@ export default class Software extends React.Component{
     }
 
     async fetch(){
-        const ock = new Octokit({ auth: process.env.REACT_APP_GITHUB_API_KEY})
+        const ock = new Octokit({ auth: "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"})
         const response = await ock.request("GET /user/repos",
         {
             owner:"Muddassar087",
