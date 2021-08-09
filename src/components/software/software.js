@@ -25,7 +25,7 @@ export default class Software extends React.Component{
     }
 
     async fetch(){
-        const ock = new Octokit({ auth: "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"})
+        const ock = new Octokit({ auth: "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"})
         const response = await ock.request("GET /user/repos",
         {
             owner:"Muddassar087",
