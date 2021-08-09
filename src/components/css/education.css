@@ -1,0 +1,51 @@
+.eduContainer{
+    color: #3E3E3E;
+    position: relative;
+    top: 180px;
+    margin-left: 17%;
+}
+.Hedu{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.desc-edu{
+    font-size: 41px;
+    font-weight: 600;
+    padding-right: 30px;
+}
+.eduList{
+    padding-top:50px;
+    margin-left: 5%;
+}
+
+.eduList ul li{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.79em;
+    letter-spacing: 0.05em;
+}
+.desc-edu{
+    padding-top: 50px;
+}
+.myedu{
+    font-Size:33px;
+    font-weight:bold;
+    padding-top:20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .eduContainer{top: 53px; margin-left: 10%;}
+    .Hedu{font-size:25px;}
+    .desc-edu{font-size: 20px; font-weight: 700;padding-top: 30px;}
+    .myedu{font-size: 23px;}
+    .eduList{padding-top: 30px;}
+    .eduList ul li{font-size: 20px;}
+    .homeScroll{width: 30px;left: 90%;}
+    .homeScroll svg{width: 40px;}
+    
+}
+ @media only screen and (max-width: 375px) {
+    .eduContainer{top: 53px; margin-left: 7%;}
+    .homeScroll{width: 30px;left: 85%;}
+    .homeScroll svg{width: 40px;}
+ }

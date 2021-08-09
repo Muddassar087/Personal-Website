@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    background-color: #FAFAFA;
 }
+html {
+    scroll-behavior: smooth;
+    min-width: 404px;
+}
+.home{
+    background: #3F3849;
+    height: 100vh;
+    min-width: 404px
+}
+.educationInfo{
+    height: 100vh;
+    background-color: #FAFAFA;
+}
+.techStack{
+    height: 100%;
+    background-color: #3F3849;;
+}.contact{
+    height: 96vh;
+    background-color:#FAFAFA; ;
+}
+.homeScroll{
+    position: sticky;
+    top: 92%;
+    left: 95%;
+    width: 50px;
+    z-index: 1;
+    cursor: pointer;
+}
+.homeScroll:hover .sicon{
+    fill: #3F3849;
+    transition: 0.3s all ease;
+}
+.softwareScroll{
+    position: sticky;
+    top: 89%;
+    left: 95%;
+    width: 50px;
+    cursor: pointer;
+    z-index: 1;
+}
+.softwareScroll:hover .sicon{
+    fill: #ffffff;
+    transition: 0.3s all ease;
+ }
+ @media only screen and (max-width: 375px) {
+    .home{padding: 0;margin: 0;box-sizing: border-box;position: relative;height: 106vh;}
+    .softwarePage{min-height: 105vh;}
+ }
+ 
