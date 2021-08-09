@@ -12,11 +12,11 @@ export default class SociallMediaLinks extends React.Component{
                 <div className="coloumn-links">
                     <div className='Slinks-row'>
                         <ul className=''>
-                                <Fb id='fb'/>
-                                <Li id='li'/>
-                                <Tw id='tw'/>
-                                <Gi id='gt'/>
-                                </ul>
+                            <a href="https://web.facebook.com/modassar.ali.77"> <Fb id='fb'/></a>
+                            <a href="https://www.linkedin.com/in/muhammad-muddassar-7047321b4/"><Li id='li'/></a>
+                            <a href="#"><Tw id='tw'/></a>
+                            <a href="https://github.com/Muddassar087"><Gi id='gt'/></a>
+                        </ul>
                     </div>
                     <div className='copyright' style={{height:"3vh"}}>
                         <p>all  right reserved @copyright 2021</p>

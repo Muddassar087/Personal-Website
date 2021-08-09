@@ -21,10 +21,10 @@ class Home extends React.Component {
         <section className="home">
           <div className='socialMediaLinks'>
             <ul className='Slinks'>
-              <Fb id='fb'/>
-              <Li id='li'/>
-              <Tw id='tw'/>
-              <Gi id='gt'/>
+             <a href="https://web.facebook.com/modassar.ali.77"> <Fb id='fb'/></a>
+              <a href="https://www.linkedin.com/in/muhammad-muddassar-7047321b4/"><Li id='li'/></a>
+              <a href="#"><Tw id='tw'/></a>
+              <a href="https://github.com/Muddassar087"><Gi id='gt'/></a>
             </ul>
           </div>
             <div className='center'>
