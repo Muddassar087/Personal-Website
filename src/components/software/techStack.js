@@ -17,7 +17,7 @@ export default class Technology extends React.Component {
               </div>
               <div className='experties'>
                   <div className='expertiesInfo'> 
-                      <p>front-end technologies
+                      <p>Front-end technologies
                         include following</p>
                       <ul className='listExperties'>
                           <li>React js</li>
@@ -51,12 +51,12 @@ export default class Technology extends React.Component {
               </div>
               <div className="ptech">
                 <p>
-                “My goals is to make some awesome stuff with what I know and keep inserting more stuff in what I know section. 
-                  I mostly learn programming by doing stuff instead of watching courses and wasting more and making less. In the 
-                  start I did basic coding in Python, C++ and Java for about 1 and half years. My basic got strong which lead me to
-                  some more stuff with it. My first real project was a school management system (traditional). After that I stepped in
-                  to the web dev and making my through it. On the way I learn Andriod development and JavaScript did some amazing
-                  projects learned alot.”
+                “My goal is to make some awesome stuff with what I know and keep inserting more stuff in what I know section. 
+                  I mostly learned programming by doing stuff instead of watching courses and wasting more and making less. In the 
+                  start of my journey I did basic coding in Python, C++ and Java for about 1 and half years. My basics got strong.
+                  My first real project was a School management system (traditional) in java. After that I stepped in
+                  to the web dev and making my way through it. On the way I learn Andriod development and JavaScript did some amazing
+                  projects and learned alot.”
                 </p>
               </div>
               <div className="fav">
