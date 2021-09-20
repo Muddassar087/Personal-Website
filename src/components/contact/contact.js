@@ -56,7 +56,7 @@ export default class Contact extends React.Component{
                         <form className='form-flex' onSubmit={this.sendEmail} id="emailform">
                             <input type="hidden" name="contact_number" />
                             <input type="text" name="name" id="name" placeholder="Name and company"/>
-                            <input type="text" name="email" id="email" placeholder="Email" />
+                            <input type="text" name="email" id="email" placeholder="Email" required/>
                             <input type="text" name="subject" id="subject" placeholder="Subject"/>
                             <textarea name="message" id="message" cols="30" placeholder="your message" rows="10"></textarea>
                         </form>
